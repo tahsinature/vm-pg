@@ -1,0 +1,6 @@
+services:
+  first-container:
+    image: cruizba/ubuntu-dind
+    container_name: first-container
+    privileged: true
+    tty: true
